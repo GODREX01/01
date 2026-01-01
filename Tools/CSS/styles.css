@@ -1,0 +1,243 @@
+/* ========== Base ========== */
+body {
+  background: #111;
+  color: #eee;
+  font-family: "Inter", sans-serif;
+  margin: 0;
+  display: flex;
+  height: 100vh;
+}
+a {
+  text-decoration: none;
+  color: var(--link-color);
+}
+button, input, textarea {
+  font-family: inherit;
+  outline: none;
+  border: none;
+  color: inherit;
+}
+
+/* ========== Layout ========== */
+.layout {
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+
+/* ========== Sidebar ========== */
+.sidebar {
+  width: 260px;
+  background: #181818;
+  padding: 18px;
+  border-right: 1px solid #333;
+  display: flex;
+  flex-direction: column;
+}
+.sidebar h2 {
+  font-size: 20px;
+  margin: 0 0 16px;
+  font-weight: 600;
+}
+.add-box {
+  display: flex;
+  gap: 6px;
+  margin-bottom: 14px;
+}
+.add-box input {
+  flex: 1;
+  background: #222;
+  padding: 6px 8px;
+  border: 1px solid #333;
+  color: #eee;
+  border-radius: 4px;
+}
+.add-box button {
+  background: #347cff;
+  padding: 6px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  color: white;
+  font-size: 14px;
+}
+#subList {
+  overflow-y: auto;
+  flex: 1;
+  min-height: 0;
+}
+.sub-item {
+  padding: 8px 6px;
+  cursor: pointer;
+  border-radius: 4px;
+  margin-bottom: 4px;
+  font-size: 14px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: background 0.2s;
+}
+.sub-item.active {
+  background: #347cff33;
+  border-left: 3px solid #347cff;
+  font-weight: bold;
+}
+.sub-item button {
+  background: #222;
+  color: #bbb;
+  border: 1px solid #333;
+  cursor: pointer;
+  border-radius: 3px;
+  font-size: 13px;
+}
+
+/* ========== Main Content ========== */
+.main {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  padding: 18px;
+  overflow-y: auto;
+  min-height: 0;
+}
+
+/* Top Buttons */
+.top-actions {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 16px;
+}
+.top-actions button {
+  background: #222;
+  padding: 8px 14px;
+  border-radius: 5px;
+  border: 1px solid #333;
+  cursor: pointer;
+  color: #ddd;
+  font-size: 14px;
+}
+.top-actions button:hover {
+  background: #2e2e2e;
+}
+
+/* ========== Tabs ========== */
+.tabs {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 14px;
+}
+.tabs button {
+  padding: 8px 14px;
+  background: #222;
+  border: 1px solid #333;
+  color: #ddd;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.tabs button.active {
+  background: #347cff;
+  color: white;
+  border-color: #347cff;
+}
+
+/* ========== Checklist Sections ========== */
+.section {
+  background: #181818;
+  border: 1px solid #333;
+  padding: 14px;
+  border-radius: 6px;
+  margin-bottom: 14px;
+}
+.section h3 {
+  margin: 0 0 10px;
+  font-size: 16px;
+  font-weight: 600;
+}
+.check-row {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  margin: 6px 0;
+}
+.check-row input {
+  transform: scale(1.2);
+  cursor: pointer;
+}
+.item-text {
+  flex: 1;
+  font-size: 14px;
+}
+
+/* Severity Tags */
+.sev-tag {
+  padding: 2px 6px;
+  font-size: 11px;
+  border-radius: 4px;
+  margin-left: 6px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.sev-tag.low { background: #264d00; color: #8dff78; }
+.sev-tag.medium { background: #665200; color: #ffe869; }
+.sev-tag.high { background: #552000; color: #ff9a6b; }
+.sev-tag.critical { background: #5c0000; color: #ff7a7a; }
+
+/* ========== Notes ========== */
+#notesArea {
+  width: 100%;
+  background: #111;
+  border: 1px solid #333;
+  border-radius: 4px;
+  color: #ddd;
+  padding: 8px;
+  resize: vertical;
+}
+
+/* ========== Scrollbars ========== */
+::-webkit-scrollbar { width: 6px; }
+::-webkit-scrollbar-thumb { background: #333; border-radius: 10px; }
+
+/* ========== Summary Bars ========== */
+.summary-subdomain {
+  background: #111;
+  padding: 16px;
+  border-radius: 8px;
+  margin-bottom: 14px;
+  border: 1px solid #222;
+}
+.summary-subdomain h4 {
+  margin: 0 0 8px 0;
+  color: #fff;
+  font-size: 16px;
+}
+.summary-row {
+  margin-bottom: 8px;
+}
+.progress-wrap {
+  background: #1a1a1a;
+  border-radius: 6px;
+  height: 10px;
+  overflow: hidden;
+  border: 1px solid #333;
+}
+.progress-bar {
+  height: 100%;
+  transition: width 0.35s ease;
+  background: linear-gradient(90deg, #7a00ff, #b86bff);
+  box-shadow: 0 0 12px #b86bffcc;
+}
+.summary-label {
+  font-size: 13px;
+  margin-bottom: 4px;
+  color: #ccc;
+}
+.summary-total {
+  margin-top: 14px;
+  padding: 12px;
+  text-align: center;
+  border-radius: 8px;
+  border: 1px solid #333;
+  background: rgba(155, 89, 182, 0.15);
+  color: #e5c6ff;
+  font-weight: 600;
+  text-shadow: 0 0 6px #b86bff88;
+}
