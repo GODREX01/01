@@ -33,8 +33,8 @@ This repository is built for:
 Central access point for all resources, notes, and experiments.
 </p>
 <p>
-👉 <a href="https://vscode.dev/github/GODREX01/01" target="_blank">
-Open Main Repository
+👉 <a href="https://godrex01.github.io/01" target="_blank">
+https://godrex01.github.io/01
 </a>
 </p>
 
@@ -45,8 +45,8 @@ Open Main Repository
 Professional background, profile details, and cybersecurity focus.
 </p>
 <p>
-👉 <a href="https://vscode.dev/github/GODREX01/01/me" target="_blank">
-View About Me
+👉 <a href="https://godrex01.github.io/01/me" target="_blank">
+https://godrex01.github.io/01/me
 </a>
 </p>
 
@@ -58,8 +58,8 @@ A curated collection of cybersecurity tools, commands, scripts, and references
 used during assessments and SOC operations.
 </p>
 <p>
-👉 <a href="https://vscode.dev/github/GODREX01/01/tools" target="_blank">
-Explore Tools
+👉 <a href="https://godrex01.github.io/01/tools" target="_blank">
+https://godrex01.github.io/01/tools
 </a>
 </p>
 
@@ -78,7 +78,7 @@ Step-by-step cybersecurity checklists for structured and efficient execution.
 </ul>
 
 <p>
-👉 <a href="https://vscode.dev/github/GODREX01/01/checklist" target="_blank">
+👉 <a href="https://godrex01.github.io/01/checklist" target="_blank">
 Access Checklists
 </a>
 </p>
