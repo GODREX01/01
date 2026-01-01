@@ -24,7 +24,7 @@ I am a **Cybersecurity Analyst & Instructor** with hands-on experience in:
 Central access point for all resources and experiments.
 
 👉 **Open:**  
-🔗 https://vscode.dev/github/GODREX01/01
+🔗 https://godrex01.github.io/01
 
 ---
 
@@ -32,7 +32,7 @@ Central access point for all resources and experiments.
 Personal introduction, background, and professional details.
 
 👉 **View:**  
-🔗 https://vscode.dev/github/GODREX01/01/me
+🔗 https://godrex01.github.io/01/me
 
 ---
 
@@ -40,7 +40,7 @@ Personal introduction, background, and professional details.
 Collection of cybersecurity tools, commands, references, and notes used in real-world scenarios.
 
 👉 **Explore:**  
-🔗 https://vscode.dev/github/GODREX01/01/tools
+🔗 https://godrex01.github.io/01/tools
 
 ---
 
@@ -53,7 +53,7 @@ Actionable cybersecurity checklists for:
 - Security Assessments  
 
 👉 **Access:**  
-🔗 https://vscode.dev/github/GODREX01/01/checklist
+🔗 https://godrex01.github.io/01/checklist
 
 ---
 
