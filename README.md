@@ -40,7 +40,7 @@ https://godrex01.github.io/01
 
 <hr>
 
-<h3>🔹 About Me</h3>
+<h3>🔹 About Me | Profile, Skills & Certifications</h3>
 <p>
 Professional background, profile details, and cybersecurity focus.
 </p>
